@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+		<title>The Copenhagen Marathon</title>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:600,300' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" type="text/css" href="index.css">
@@ -16,18 +17,19 @@
 			</div>
 
 			<div class="story-container">
-				<img class="jg-logo" src="assets/images/just-giving-logo.jpeg">
+				<img class="jg-logo" src="assets/images/just-giving-logo.jpeg" alt="JustGiving logo">
 				<div class="story-text">
-					Unfortunately a close family friend of mine was diagnosed with cancer last year. In May I'll be running a marathon in support of all the work they're doing at Pancreatic Cancer UK.</br>
-					</br>
-					Shouts to ma boy Big D.</br>
-					</br>
-					I'll also be trying to beat my dad's time (3:17) from back when he was a young 'un, which is going to be hard. Very hard.</br>
-					</br>
-					Any donations are hugely appreciated (and as a JG employee, they'll match my donation if it gets over £500!).</br>
+					Unfortunately a close family friend of mine was diagnosed with cancer last year. In May I'll be running a marathon in support of all the work they're doing at Pancreatic Cancer UK.<br>
+					<br>
+					Shouts to ma boy Big D.<br>
+					<br>
+					I'll also be trying to beat my dad's time (3:17) from back when he was a young 'un, which is going to be hard. Very hard.<br>
+					<br>
+					Any donations are hugely appreciated (and as a JG employee, they'll match my donation if it gets over £500!).<br>
 				</div>
-				<img src="assets/images/pcuk-logo.jpg" class="jamie-image-1"/>
+				<img src="assets/images/pcuk-logo.jpg" class="jamie-image-1" alt="Jamie running"/>
 			</div>
+
 
 			<div class="donate-button-container">
 				<button class="donate-button">Donate</button>
@@ -40,5 +42,13 @@
 		</section>
 
 	</body>
+
+	<script type="text/javascript" src="scripts/all.js"></script>
+	<script type="text/javascript" src="scripts/makeRequest.js"></script>
+	<script type="text/javascript">
+
+		makeRequest("https://api.justgiving.com/9e94dc3c/v1/fundraising/pages/Yogging-In-Denmark");
+
+	</script>
 
 </html>
