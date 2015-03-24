@@ -4,11 +4,7 @@ document.addEventListener('click', function(e) {
 		e = e || window.event;
 
 		var target = e.target || e.srcElement;
-
-		// makeRequest("https://api.justgiving.com/9e94dc3c/v1/account");
-		// makeRequest("https://api.justgiving.com/9e94dc3c/v1/fundraising/pages/Yogging-In-Denmark");
-
-
+		
 }, false);
 
 

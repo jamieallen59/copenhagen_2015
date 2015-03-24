@@ -19,7 +19,6 @@ function makeRequest(url) {
 
 	httpRequest.onreadystatechange = showInfo;
 	httpRequest.open('GET', url);
-	// httpRequest.setRequestHeader("Authorization","Basic amFtaWVhbGxlbjU5QGdtYWlsLmNvbTphbmltYWwzMw==");
 	httpRequest.setRequestHeader("Accept", "application/json");
 	httpRequest.send();
 }
