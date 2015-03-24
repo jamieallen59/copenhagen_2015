@@ -1,0 +1,107 @@
+html {
+	/*background-color: #E8E5D8;*/
+	background-image: url("assets/images/copenhagen-landscape.jpg");
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.main-container {
+	max-width: 1000px;
+	min-width: 800px;
+	border-radius: 15px;
+	opacity: 0.93;
+	background-color: #FFF;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	margin-top: 30px;
+}
+
+.headline {
+	text-align: center;
+	font-size: 44px;
+	font-weight: 600;
+	color: #D83E2D;
+
+	padding: 40px 0px;
+}
+
+
+/* --- STORY --- */
+.story-container {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-flex;
+}
+	.jg-logo {
+		height: 175px;
+
+		margin: 0 auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.story-text {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px 0px;
+	}
+	.jamie-image-1 {
+		height: 175px;
+		margin: 0 auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+/* --- DONATE --- */
+.donate-button-container {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px;
+}
+	.donate-button {
+		color: white;
+		font-family: "Raleway";
+		font-size: 24px;
+		font-weight: 300;
+		background-color: purple;
+		border: none;
+		padding: 8px 80px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.donate-button:hover {
+		background-color: rgb(153, 64, 153);
+	}
+	.donate-button:active {
+		position: relative;
+		top: 1px;
+	}
+
+
+/* --- TIMELINE --- */
+.timeline-container {
+	border: 1px solid black;
+	height: 300px;
+	margin: 35px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
